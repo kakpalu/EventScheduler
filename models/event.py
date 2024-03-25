@@ -38,6 +38,8 @@ class Event:
 
     @property
     def description(self):
+        if not self._description:
+            return "No description"
         return self._description
 
     @description.setter
