@@ -18,6 +18,12 @@ def main():
 
         if choice == "1":
             title = input("Enter event title: ")
+
+            if not title:
+                print("Title cannot be empty.")
+
+                continue
+
             date = get_date_input()
             description = input("Enter event description (optional): ")
             scheduler.add_event(title, date, description)

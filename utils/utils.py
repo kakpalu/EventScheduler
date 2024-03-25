@@ -3,7 +3,7 @@ from datetime import date, datetime
 
 def get_date_input():
     while True:
-        date_str = input("Enter the date (YYYY-MM-DD): ")
+        date_str = input("Enter the date (YYYY-MM-DD) (required): ")
         try:
             inputted_date = datetime.strptime(date_str, "%Y-%m-%d").date()
             return inputted_date
