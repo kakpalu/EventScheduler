@@ -12,7 +12,7 @@ JSON module (built-in)
 Command-line interface (CLI) or script execution environment
 
 ## Usage
-Run the Script: Execute the script using Python:
+Run the Script: Execute the script using Python in the project root directory:
 ```bash
 python entry.py
 ```
